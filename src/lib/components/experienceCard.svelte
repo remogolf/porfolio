@@ -11,7 +11,7 @@
 <div class="card">
 	<div class="time-period">{timePeriod}</div>
 	<div class="heading">
-		{heading}@ <a href={link} target="_blank"> {companyName} <ExternalLink/></a>
+		{heading}<a href={link} target="_blank"> {companyName} <ExternalLink/></a>
 	</div>
 	<div class="paragraph">{paragraph}</div>
 	<div class="tags">

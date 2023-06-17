@@ -87,7 +87,7 @@
 		grid-template-columns: minmax(0, 1fr) 1fr;
 		grid-template-rows: 5rem 1fr 5rem;
 		height: 100%;
-		overflow: hidden;
+		overflow-y: auto;
 		max-width: 1440px;
 		grid-template-areas:
 			'header header'
@@ -96,14 +96,17 @@
 	}
 	.header {
 		grid-area: header;
+		position:sticky;
+		top:0;
 	}
 	.footer {
 		grid-area: footer;
-		z-index: 1;
+		position:sticky;
+		bottom:0;
 	}
 	.left-column {
-		align-items: start;
-		top: 0;
+		align-self:start;
+		top:6rem;
 		position: sticky;
 		grid-area: left_col;
 	}
@@ -117,15 +120,14 @@
 	.right-column {
 		height: 100%;
 		grid-area: right_col;
-		overflow-y: auto;
 	}
-	.right-column::-webkit-scrollbar
+	.grid-container::-webkit-scrollbar
 {
 	width: 12px;
 	background-color: var(--surface-2);
 }
 
-.right-column::-webkit-scrollbar-thumb
+.grid-container::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
