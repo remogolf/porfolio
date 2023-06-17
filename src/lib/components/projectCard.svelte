@@ -1,4 +1,5 @@
 <script>
+  import { ExternalLink } from 'lucide-svelte';
     export let projectName = '';
     export let projectLink = '';
     export let projectDescription = '';
@@ -8,7 +9,6 @@
   
   <style>
     .card {
-      background-color: var(--surface-2);
       border-radius: 8px;
       padding: 16px;
       display: flex;
@@ -31,14 +31,15 @@
     }
   
     .header {
-      font-size: 18px;
+      font-size: var(--font-size-3);
       font-weight: bold;
-      color: var(--text-1);
+      color: var(--link);
       margin-bottom: 8px;
+      display:flex;
     }
   
     .description {
-      font-size: 14px;
+      font-size: var(--font-size-1);
       color: var(--text-2);
       margin-bottom: 8px;
     }
@@ -51,18 +52,28 @@
     .tag {
       background-color: var(--surface-4);
       color: var(--text-3);
-      font-size: 12px;
+      font-size: var(--font-size-0);
       padding: 4px 8px;
       border-radius: 16px;
       margin-right: 8px;
       margin-bottom: 8px;
+    }
+    .header:hover{
+      color:var(--brand)
+    }
+    .card:hover{
+      background-color: var(--surface-2);
     }
   </style>
   
   <div class="card">
     <div class="image" style="background-image: url({projectImage})"></div>
     <div class="content">
-      <a href={projectLink} target='Blank_'><div class="header">{projectName}</div></a>
+      <a href={projectLink} target='Blank_'>
+        <div class="header">
+          {projectName}<ExternalLink />
+        </div>
+      </a>
       <div class="description">{projectDescription}</div>
       <div class="tags">
         {#each tags as tag}

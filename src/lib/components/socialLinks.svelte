@@ -28,4 +28,7 @@
     a:hover {
         color: var(--brand);
     }
+    a{
+        color:var(--link)
+    }
 </style>

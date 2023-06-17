@@ -6,15 +6,19 @@
 <div class="container">
 	<Card
 		timePeriod="Jan 2023 -  now"
-		heading="Mechanical Design Engineer @ Pragma-Engineering"
-		paragraph="Develop and Design Consumer Products with specialization part design for injection moulding"
+		heading="Mechanical Design Engineer"
+		companyName='Pragma Engineering'
+		link='https://pragma-engineering.ch/'
+		paragraph="Develop and Design Consumer Products with specialization in part design for injection moulding"
 		tags={['SolidWorks', 'SolidWorks FEM', 'SolidEdge']}
 	/>
 </div>
 <div class="container">
 	<Card
 		timePeriod="Dec 2021 - Dec 2022"
-		heading="Field Application Engineer @ Fotokite"
+		heading="Field Application Engineer"
+		companyName="Fotokite"
+		link="https://fotokite.com/"
 		paragraph="Provide technical support and aid in the establishment of support related processes"
 		tags={['Git', 'SolidWorks', 'Wrike']}
 	/>
@@ -22,7 +26,9 @@
 <div class="container">
 	<Card
 		timePeriod="August 2019 - August 2020"
-		heading="Internship @ Burckhardt Compression"
+		heading="Internship"
+		companyName='Burckhardt Compression'
+		link='https://www.burckhardtcompression.com/'
 		paragraph="Meintenance and creation of technical drawings. Create and maintain CAD material database. Aid in Compressor auxiliary components"
 		tags={['NX', 'SAP', 'VBA']}
 	/>

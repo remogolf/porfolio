@@ -1,2 +1,2 @@
 <h2>About</h2>
-<p>I graduated from Zurich University for Applied Sciences in 2022 as a Mechanical Engineer and ever since I have been on a mission to gather as much experience and relevant skills as possible. In my freetime I enjoy dabbling with webdesign using SvelteKit. It's how I built this site.</p>
+<p>I graduated from Zurich University for Applied Sciences in 2021 as a Mechanical Engineer and ever since I have been on a mission to gather as much experience and relevant skills as possible. In my freetime I enjoy dabbling with webdesign using SvelteKit. It's how I built this site.</p>

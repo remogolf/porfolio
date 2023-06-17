@@ -8,8 +8,8 @@
 	<ProjectCard
 		projectName="Portfolio Site V2"
 		projectLink="#home"
-		projectDescription="This is a brief description of the project."
-		projectImage="./OpenPeepsBust.png"
+		projectDescription="The current website you are viewing right now"
+		projectImage="./PortfolioV2.avif"
 		tags={['SvelteKit', 'CSS', 'TypeScript']}
 	/>
 </div>
