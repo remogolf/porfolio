@@ -16,7 +16,6 @@
 		justify-content: space-between;
         align-items: center;
 		border-top: 1px solid var(--border);
-		background-color: var(--surface-1);
 	}
 
 	p {

@@ -6,7 +6,8 @@
 	import Experience from '$lib/sections/experience.svelte';
 	import Projects from '$lib/sections/projects.svelte';
 	import Footer from '$lib/sections/footer.svelte';
-	import CustomCursor from '$lib/components/customCursor.svelte'
+	import CustomCursor from '$lib/components/customCursor.svelte';
+	import CursorGlow from '$lib/components/cursorGlow.svelte'
 
 	// Import statements...
 	import { onMount } from 'svelte';
@@ -46,8 +47,11 @@
 </script>
 
 
+<CursorGlow/>
+<CustomCursor/>
 
 <div class="grid-container">
+
 	<div class="header" />
 	<div class="left-column">
 		<div class="hero">
