@@ -2,7 +2,7 @@
 	import ProjectCard from '$lib/components/projectCard.svelte';
 </script>
 
-<h1>Projects</h1>
+<h2>Projects</h2>
 <div class="container">
 	
 	<ProjectCard
