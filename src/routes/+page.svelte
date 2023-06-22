@@ -47,8 +47,6 @@
 </script>
 
 
-<CursorGlow/>
-<CustomCursor/>
 
 <div class="grid-container">
 
