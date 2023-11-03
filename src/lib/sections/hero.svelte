@@ -7,7 +7,7 @@
 	<h1>Remo Füeg</h1>
 	<h4>Mechanical Design Engineer</h4>
 	<p>
-		I develop and validate product designs, create prototypes, perform test and rollout the product
+		I develop and validate products designs, create prototypes, perform test and oversee the start of the manufacturing process
 	</p>
 	<SocialLinks/>
 </div>
