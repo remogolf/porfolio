@@ -67,6 +67,7 @@
 	a {
 		color: var(--link);
     display:flex;
+	padding-left: 1rem;
 	}
 	a:hover {
 		color: var(--brand);
